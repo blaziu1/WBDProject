@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Magia
+ * @author Błażej
  */
 public class ManageAnimals2 extends javax.swing.JPanel {
 
@@ -1081,8 +1081,6 @@ public class ManageAnimals2 extends javax.swing.JPanel {
                             JLabel lbl = new JLabel("Dodanie zwierzaka powiodło się.");
                             panel.add(lbl);
                             int selectedOption = JOptionPane.showOptionDialog(null, panel,"Zwierzak dodany", JOptionPane.NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options , options[0]);
-
-                           // refreshList();
                 }
             }
         } catch (SQLException e) {
