@@ -15,7 +15,7 @@ import wbd.DBManager;
 
 /**
  *
- * @author Magia
+ * @author Błażej
  */
 public class MainWindow extends javax.swing.JFrame {
     
